@@ -12,8 +12,6 @@ jobs:
         env:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          dvc plots show --show-vega prc.json > vega.json
-          vl2svg vega.json prc.svg
 
           echo "Hello @${{ github.actor }}, testing actions" > greeting.md
           cml-send-comment report.md
