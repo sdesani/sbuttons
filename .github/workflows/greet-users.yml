@@ -10,7 +10,7 @@ jobs:
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           pr-message: |
-            Hello @${{ github.actor }}, thank you for submitting a PR, we will be looking at it soon! We advise you to checkout our [CONTRIBUTING.md](https://github.com/sButtons/sbuttons/blob/master/CONTRIBUTING.md) wiki in the mean time.
+            Hello @${{ github.actor }}, thank you for submitting a PR! We will be looking at it soon. We advise you to checkout our [CONTRIBUTING](https://github.com/sButtons/sbuttons/blob/master/CONTRIBUTING.md) wiki in the mean time.
 
           issue-message: |
             Hello @${{ github.actor }}, thank you for your interest in our work! We will be looking at it soon !
