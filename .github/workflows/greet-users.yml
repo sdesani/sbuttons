@@ -14,4 +14,4 @@ jobs:
         run: |
 
           echo "Hello @${{ github.actor }}, testing actions" > greeting.md
-          cml-send-comment report.md
+          cml-send-comment greeting.md
